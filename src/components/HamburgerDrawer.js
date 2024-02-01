@@ -26,7 +26,7 @@ export default function HamburgerDrawer({setCategory}) {
 
     setState({ ...state, [anchor]: open });
   }; 
-
+ 
   const list = (anchor) => (
     <Box
       sx={{ width: anchor === 'top' || anchor === 'bottom' ? 'auto' :200,paddingLeft:"10px",paddingRight:'10px' }}
