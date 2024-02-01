@@ -25,7 +25,7 @@ export default function HamburgerDrawer({setCategory}) {
     }
 
     setState({ ...state, [anchor]: open });
-  };
+  }; 
 
   const list = (anchor) => (
     <Box
